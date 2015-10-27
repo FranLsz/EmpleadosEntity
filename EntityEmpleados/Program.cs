@@ -21,6 +21,7 @@ namespace EntityEmpleados
             };
 
             ctx.Puesto.Add(p);
+            ctx.SaveChanges();
         }
     }
 }
